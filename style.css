@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.dropdown {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+img {
+  width: auto;
+  max-height: 16em;
+}
+
+.imagebox {
+  padding-right: 10em;
+  padding-left: 10em;
+}
+
+
+.fa-square {
+  color: #0099ff;
+  text-align: center;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -28px;
+  margin-bottom: -4px;
+}
+
+.fa-mobile-alt, .fa-paper-plane, .fa-bullhorn {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.fa-square, .fa-mobile-alt, .fa-paper-plane, .fa-bullhorn {
+  font-size: 2em;
+  vertical-align: middle;
+} 
+
+.fa-facebook-square, .fa-twitter-square, .fa-google-plus-square, .fa-linkedin{
+  color: #0099ff;
+  float: right;
+  font-size: 2em;
+  padding: 4px;
+}
+
+.respond{
+  background-color: #002b80;
+}
+
+.perimg, .cupimg, .strimg, .perimg2, .cupimg2, .strimg2{
+  background-color: blue;
+  z-index: 2;
+}
+
+.perimg:hover {
+  opacity:0.7 !important;
+  z-index: 0;
+}
+
+.iconhold{
+  position: relative;
+}
+
+.iconhold img{ 
+  max-width: 100%;
+  height: auto;
+}
+
+/* this is for the drop down */
+.servbutton { 
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.dropdownbutton {
+  position: relative;
+  display: inline-block;
+}
+
+.dropcontent{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcontent a{
+  color: black;
+  display: block;
+}
+
+.dropcontent a:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.servbutton:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.dropdownbutton:hover .dropcontent {
+  display: block;
+}
+.serv:hover .dorpcont {
+  display: block;
+}
+
+/* no longer in dropdown content */
+.iconhold a .sqback{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  top: 50%;
+  left: 40%;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.iconhold a .plusback  {
+  color: #ffffff;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   z-index: 10;
+   top: 50%;
+   left: 40%;
+   margin-top: -10px;
+   margin-left: -10px;
+}
+
+.iconhold a .sqback2{
+  color: #0099ff;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  top: 50%;
+  left: 60%;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.iconhold a .linkback {
+  color: #ffffff;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   z-index: 10;
+   top: 50%;
+   left: 60%;
+   margin-top: -10px;
+   margin-left: -10px;
+}
+ 
+
+.iconhold:hover .hoveffect{
+  display: block;
+}
+
+.hoveffect {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 255, 0.6);
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.containhold{
+  background-color: #002b80;
+}
+
+.inp {
+  background-color: transparent;
+  color:#ffffff
+}
+
+.headtext{
+  color:#ffffff
+}
+
+.navlist {
+  float: right;
+}
+
+.navcont {
+  justify-content: space-between;
+}
+
+.footcont {
+  justify-content: center;
+}
+
+.navbut:hover{
+  background-color: blue;
+  color: #ffffff;
+}
+li:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.newimgbox {
+  justify-content: center;
+}
+.imgholder {
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+.backgrondhold {
+	background-color: #D3D3D3;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: white;
+  padding: 12px 20px;
+  border-style: solid;
+  border-color: #3399ff;
+  cursor: pointer;
+  float: right;
+}
+
+.checklabel {
+  padding-top: 12px;
+  color: #ffffff;
+}
+
+
+
+/*  .cupimg, .strimg, .perimg2, .cupimg2, .strimg2 */
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
