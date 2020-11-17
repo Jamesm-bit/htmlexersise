@@ -108,6 +108,9 @@ img {
 }
 
 /* no longer in dropdown content */
+
+/* old icon css
+
 .iconhold a .sqback{
   position: absolute;
   width: 40px;
@@ -152,7 +155,47 @@ img {
    margin-top: -10px;
    margin-left: -10px;
 }
- 
+*/
+
+.fasquare {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  margin-top: -20px;
+  margin-left: -35px;
+}
+.fasearch {
+  color: #ffffff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  margin-top: -10px;
+  margin-left: -28px;
+}
+.fasquare2{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  margin-top: -20px;
+  margin-left: -5px;
+}
+.falink {
+  color: #ffffff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+.icocenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 
 .iconhold:hover .hoveffect{
   display: block;
@@ -187,9 +230,13 @@ img {
 }
 
 .navcont {
+  background-color: #ffffff;
   justify-content: space-between;
 }
-
+a img {
+  width: 50%;
+  height: auto;
+}
 .footcont {
   justify-content: center;
 }
@@ -207,6 +254,10 @@ li:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+.subbutton:hover {
+  background-color: blue;
 }
 
 .newimgbox {
