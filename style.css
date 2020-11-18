@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+
+.navbar {
+  justify-content: space-around;
+}
+
+.test {
+  max-width: 306px;
+}
+
+button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/*
 .dropdown {
 	float: right;
 	position: relative;
 	display: inline-block;
 }
+*/
+
 
 img {
   width: auto;
