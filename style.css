@@ -8,7 +8,10 @@
 .test {
   max-width: 306px;
 }
-
+.navimg {
+  max-width: 175px;
+  max-height: auto;
+}
 button {
   border-color: transparent;
   background-color: transparent;
